@@ -1,0 +1,1735 @@
+{
+    "processed": 120,
+    "failed": 0,
+    "accuracy": 0.7916666666666666,
+    "classes": [
+        "BodyWeightSquats",
+        "JumpingJack",
+        "PullUps",
+        "Punch",
+        "PushUps"
+    ],
+    "confusion_matrix": [
+        [
+            10,
+            2,
+            0,
+            8,
+            3
+        ],
+        [
+            3,
+            18,
+            3,
+            1,
+            0
+        ],
+        [
+            2,
+            3,
+            15,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            31,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            21
+        ]
+    ],
+    "y_true": [
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps"
+    ],
+    "y_pred": [
+        "BodyWeightSquats",
+        "JumpingJack",
+        "Punch",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "PushUps",
+        "Punch",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "JumpingJack",
+        "Punch",
+        "BodyWeightSquats",
+        "PushUps",
+        "Punch",
+        "PushUps",
+        "BodyWeightSquats",
+        "Punch",
+        "Punch",
+        "Punch",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "Punch",
+        "BodyWeightSquats",
+        "BodyWeightSquats",
+        "JumpingJack",
+        "PullUps",
+        "PullUps",
+        "JumpingJack",
+        "BodyWeightSquats",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "Punch",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "BodyWeightSquats",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "PullUps",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "JumpingJack",
+        "PullUps",
+        "BodyWeightSquats",
+        "JumpingJack",
+        "PullUps",
+        "PullUps",
+        "JumpingJack",
+        "BodyWeightSquats",
+        "PullUps",
+        "PullUps",
+        "JumpingJack",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "PullUps",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "Punch",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps",
+        "PushUps"
+    ],
+    "results": [
+        {
+            "file": "v_BodyWeightSquats_g18_c04.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -15.973891436297565,
+                "JumpingJack": -30.43520867350611,
+                "PullUps": -31.091602804302294,
+                "Punch": -61.207903262259265,
+                "PushUps": -19863.92949671174
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g15_c03.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -41.07291826998952,
+                "JumpingJack": -32.04081165558122,
+                "PullUps": -44.34309247200713,
+                "Punch": -92.85041647981794,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g07_c04.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -33.12851747482294,
+                "JumpingJack": -57.52718476584217,
+                "PullUps": -202.7972749968756,
+                "Punch": -24.99724792999477,
+                "PushUps": -1709.244894081156
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g07_c02.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -14.961820039201612,
+                "JumpingJack": -119.13895854370044,
+                "PullUps": -523.8558139726275,
+                "Punch": -27.109221128034996,
+                "PushUps": -155.71118324999898
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g23_c03.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -2.1768860548562636,
+                "JumpingJack": -11.225812114620792,
+                "PullUps": -12.02873537784227,
+                "Punch": -14.014078756702888,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g25_c05.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -1.9867544698690516,
+                "JumpingJack": -119.65668432659652,
+                "PullUps": -541.0849800904552,
+                "Punch": -25.5667155178778,
+                "PushUps": -1.7967213647043947
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g02_c01.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -145.1538352690515,
+                "JumpingJack": -Infinity,
+                "PullUps": -116.23079244923483,
+                "Punch": -71.63104371493935,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g13_c01.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -2.816829207070409,
+                "JumpingJack": -15.862821541410192,
+                "PullUps": -17.235974293568468,
+                "Punch": -20.487146190287838,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g18_c02.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -15.399167478313824,
+                "JumpingJack": -29.293596562494272,
+                "PullUps": -29.92946020042891,
+                "Punch": -58.789396874975466,
+                "PushUps": -19099.380140168243
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g03_c04.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -54.84739212797875,
+                "JumpingJack": -50.14028724016513,
+                "PullUps": -50.33690671137028,
+                "Punch": -110.18665632218365,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g16_c04.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -29.4899934486668,
+                "JumpingJack": -Infinity,
+                "PullUps": -29.10154173757637,
+                "Punch": -23.853089904560015,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g24_c04.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -75.30649407997734,
+                "JumpingJack": -Infinity,
+                "PullUps": -84.73254005396267,
+                "Punch": -86.37022686002449,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g20_c05.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -2.0453664092360895,
+                "JumpingJack": -152.50719716207036,
+                "PullUps": -693.5763198175173,
+                "Punch": -32.14445195265054,
+                "PushUps": -1.9151675350331916
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g04_c01.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -102.64558059215773,
+                "JumpingJack": -93.58903450378502,
+                "PullUps": -84.25535294708085,
+                "Punch": -81.25921791505735,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g25_c04.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -1.9906619325037624,
+                "JumpingJack": -121.84675724908192,
+                "PullUps": -551.2510694055927,
+                "Punch": -26.005231280195982,
+                "PushUps": -1.804617776059645
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g05_c01.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -2.1440684573068203,
+                "JumpingJack": -10.988016759400823,
+                "PullUps": -11.761697484728106,
+                "Punch": -13.682126580621611,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g07_c03.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -39.756675430700305,
+                "JumpingJack": -102.54450061050827,
+                "PullUps": -411.75731833201127,
+                "Punch": -29.878342072826708,
+                "PushUps": -617.1082620089056
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g08_c02.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -174.66850836898806,
+                "JumpingJack": -Infinity,
+                "PullUps": -132.10780604448865,
+                "Punch": -78.97922979993882,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g09_c02.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -197.1967151801546,
+                "JumpingJack": -Infinity,
+                "PullUps": -168.44331763832275,
+                "Punch": -111.76186025010968,
+                "PushUps": -11543.32264715373
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g22_c03.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -31.418843901177624,
+                "JumpingJack": -Infinity,
+                "PullUps": -43.76354618781958,
+                "Punch": -53.09883746521426,
+                "PushUps": -11794.840116898968
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g01_c04.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -22.80139159610005,
+                "JumpingJack": -193.53634080539138,
+                "PullUps": -841.4275483592819,
+                "Punch": -52.82218000191289,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g04_c02.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -38.766239701992305,
+                "JumpingJack": -36.689597287025386,
+                "PullUps": -35.236303368639774,
+                "Punch": -31.912627752400113,
+                "PushUps": -723.9688228613261
+            }
+        },
+        {
+            "file": "v_BodyWeightSquats_g19_c04.npy",
+            "true": "BodyWeightSquats",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -2.7511940119715224,
+                "JumpingJack": -15.387230830970253,
+                "PullUps": -16.70189850734014,
+                "Punch": -19.823241838125277,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g20_c02.npy",
+            "true": "JumpingJack",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -2.816829207070409,
+                "JumpingJack": -15.862821541410192,
+                "PullUps": -17.235974293568468,
+                "Punch": -20.487146190287838,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g03_c01.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -13.645531038033951,
+                "JumpingJack": -5.125371340946496,
+                "PullUps": -14.816063598833564,
+                "Punch": -11.857150968094023,
+                "PushUps": -249.3003329322791
+            }
+        },
+        {
+            "file": "v_JumpingJack_g13_c03.npy",
+            "true": "JumpingJack",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -178.95458062676641,
+                "JumpingJack": -84.80211994339214,
+                "PullUps": -73.15885906798816,
+                "Punch": -146.4835785094986,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g13_c05.npy",
+            "true": "JumpingJack",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -148.94308467691616,
+                "JumpingJack": -64.47122544755024,
+                "PullUps": -56.55377874916686,
+                "Punch": -142.48287327975598,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g24_c04.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -26.217728768308618,
+                "JumpingJack": -19.250640472066028,
+                "PullUps": -29.355720346762606,
+                "Punch": -129.9445817703933,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g06_c04.npy",
+            "true": "JumpingJack",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -2.1768860548562636,
+                "JumpingJack": -11.225812114620792,
+                "PullUps": -12.02873537784227,
+                "Punch": -14.014078756702888,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g09_c06.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -12.476246453953316,
+                "JumpingJack": -8.521201681705275,
+                "PullUps": -21.694922515060377,
+                "Punch": -131.04857189807325,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g10_c04.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -46.52283992758182,
+                "JumpingJack": -37.636968419565775,
+                "PullUps": -39.51671152859987,
+                "Punch": -89.51861534556933,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g23_c01.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -28.208873308805888,
+                "JumpingJack": -21.383491717565754,
+                "PullUps": -30.724437274333177,
+                "Punch": -126.05788404471585,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g11_c01.npy",
+            "true": "JumpingJack",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -60.4178659735488,
+                "JumpingJack": -39.979380334948566,
+                "PullUps": -73.94948292925366,
+                "Punch": -34.984191167092675,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g15_c03.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -7.318781559123537,
+                "JumpingJack": -4.176781588347794,
+                "PullUps": -17.468459927371544,
+                "Punch": -119.10440372505569,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g24_c02.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -11.382313609983253,
+                "JumpingJack": -7.645500008200187,
+                "PullUps": -21.48747378980715,
+                "Punch": -131.69967349327848,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g25_c01.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -55.75992396828579,
+                "JumpingJack": -39.84278163984722,
+                "PullUps": -48.18706079045232,
+                "Punch": -130.8603088823882,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g14_c01.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -8.239030469186869,
+                "JumpingJack": -4.818187227614963,
+                "PullUps": -20.1674170299186,
+                "Punch": -138.96730480713518,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g14_c04.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -5.872676129024008,
+                "JumpingJack": -3.1688584409279588,
+                "PullUps": -13.227241623369078,
+                "Punch": -87.89127345321616,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g20_c01.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -21.334708769756034,
+                "JumpingJack": -16.03912318643769,
+                "PullUps": -31.899294501341902,
+                "Punch": -167.43465688214522,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g06_c07.npy",
+            "true": "JumpingJack",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -2.062024463433212,
+                "JumpingJack": -10.3935283713509,
+                "PullUps": -11.094102751942696,
+                "Punch": -12.85224614041842,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g04_c03.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -136.28443300052675,
+                "JumpingJack": -90.66161121934691,
+                "PullUps": -100.0433704152369,
+                "Punch": -96.25930526333745,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g07_c02.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -12.08185406392618,
+                "JumpingJack": -8.246313550590768,
+                "PullUps": -20.53822661396878,
+                "Punch": -122.53590000575345,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g04_c04.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -62.67219208382272,
+                "JumpingJack": -52.93824329781837,
+                "PullUps": -59.10206465908139,
+                "Punch": -57.25769972259388,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g12_c01.npy",
+            "true": "JumpingJack",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -113.7926767830248,
+                "JumpingJack": -109.11994176634596,
+                "PullUps": -91.566666038748,
+                "Punch": -98.61663904015762,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g17_c03.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -45.05314747860666,
+                "JumpingJack": -32.64651861624559,
+                "PullUps": -43.94746000085773,
+                "Punch": -147.80746359641498,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g25_c03.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -36.136396911980476,
+                "JumpingJack": -30.445665114213767,
+                "PullUps": -36.9312890516035,
+                "Punch": -124.50650228563951,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g24_c03.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -8.041834274173299,
+                "JumpingJack": -4.680743162057713,
+                "PullUps": -19.589069079372802,
+                "Punch": -134.71096886097533,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_JumpingJack_g10_c03.npy",
+            "true": "JumpingJack",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -59.71425177520226,
+                "JumpingJack": -44.732722937373055,
+                "PullUps": -48.37873473481979,
+                "Punch": -85.5893143663844,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g07_c03.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -95.63556647979472,
+                "JumpingJack": -56.405375653544695,
+                "PullUps": -38.57758063829188,
+                "Punch": -51.43038427831062,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g14_c03.npy",
+            "true": "PullUps",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -2.3902004389276454,
+                "JumpingJack": -12.771481923550592,
+                "PullUps": -13.764481683084338,
+                "Punch": -16.171767901231192,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g22_c01.npy",
+            "true": "PullUps",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -26.068860621386353,
+                "JumpingJack": -21.80977292558818,
+                "PullUps": -33.85508912654301,
+                "Punch": -153.22844014206157,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g09_c02.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -314.04488560845033,
+                "JumpingJack": -125.00879089635467,
+                "PullUps": -95.36765478442908,
+                "Punch": -104.22251247057736,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g16_c03.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -1079.265993376219,
+                "JumpingJack": -228.19693063177314,
+                "PullUps": -6.015255360080088,
+                "Punch": -23.877161805695945,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g22_c03.npy",
+            "true": "PullUps",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -33.635211242804345,
+                "JumpingJack": -24.439671568612603,
+                "PullUps": -38.5209406301499,
+                "Punch": -156.8257919232756,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g19_c04.npy",
+            "true": "PullUps",
+            "predicted": "BodyWeightSquats",
+            "scores": {
+                "BodyWeightSquats": -8.374763547401436,
+                "JumpingJack": -15.340559650127382,
+                "PullUps": -15.725495041976439,
+                "Punch": -29.229874363728964,
+                "PushUps": -9259.785309697296
+            }
+        },
+        {
+            "file": "v_PullUps_g05_c03.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -126.64533632938195,
+                "JumpingJack": -79.14789177979455,
+                "PullUps": -73.46795343166016,
+                "Punch": -93.90103829703614,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g18_c04.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -73.56865559902218,
+                "JumpingJack": -67.11732725716007,
+                "PullUps": -65.27701988333509,
+                "Punch": -74.05368487268832,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g08_c02.npy",
+            "true": "PullUps",
+            "predicted": "JumpingJack",
+            "scores": {
+                "BodyWeightSquats": -89.60669177376282,
+                "JumpingJack": -65.24858815871626,
+                "PullUps": -69.60633979222575,
+                "Punch": -131.90283113652913,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g17_c01.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -138.2375322704446,
+                "JumpingJack": -115.95960045140653,
+                "PullUps": -105.28257835424263,
+                "Punch": -215.09989521428415,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g22_c04.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -340.3033746332092,
+                "JumpingJack": -114.86977031318588,
+                "PullUps": -85.47944388502037,
+                "Punch": -175.9598400727582,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g10_c02.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -167.10661141960276,
+                "JumpingJack": -147.10810648641348,
+                "PullUps": -119.14603151265379,
+                "Punch": -138.50228822746968,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g09_c01.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -352.2123484993297,
+                "JumpingJack": -132.92184468080515,
+                "PullUps": -92.17024812205005,
+                "Punch": -92.59251286692945,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g17_c04.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -153.54929277114746,
+                "JumpingJack": -137.10769620173653,
+                "PullUps": -131.47491889769046,
+                "Punch": -236.72678789332926,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g03_c04.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -1901.292004460245,
+                "JumpingJack": -400.0408674751626,
+                "PullUps": -14.877488211779944,
+                "Punch": -44.86294828746595,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g12_c01.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -625.3222079069087,
+                "JumpingJack": -133.8841028433966,
+                "PullUps": -7.674107017782703,
+                "Punch": -17.948455398280743,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g02_c03.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -1002.8622410871487,
+                "JumpingJack": -212.26828800145407,
+                "PullUps": -5.6738349937658015,
+                "Punch": -22.32858544783306,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g03_c03.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -1467.3706595554174,
+                "JumpingJack": -338.2827312302122,
+                "PullUps": -73.42365197446172,
+                "Punch": -90.70958785857843,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_PullUps_g08_c04.npy",
+            "true": "PullUps",
+            "predicted": "PullUps",
+            "scores": {
+                "BodyWeightSquats": -103.69323766248745,
+                "JumpingJack": -77.1365095416149,
+                "PullUps": -70.30574116600094,
+                "Punch": -136.98776035235815,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g12_c05.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -280.15660326936296,
+                "JumpingJack": -Infinity,
+                "PullUps": -141.42682006057134,
+                "Punch": -120.41471815427629,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g06_c06.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -641.5981098175661,
+                "JumpingJack": -Infinity,
+                "PullUps": -257.29571389342567,
+                "Punch": -231.74780864406117,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g13_c02.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -92.50946845396575,
+                "JumpingJack": -Infinity,
+                "PullUps": -67.44939147705743,
+                "Punch": -66.56933779930621,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g03_c04.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -223.01737034688338,
+                "JumpingJack": -Infinity,
+                "PullUps": -281.2272815648408,
+                "Punch": -132.2808263316755,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g06_c04.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -277.2241789772762,
+                "JumpingJack": -Infinity,
+                "PullUps": -204.22867886826097,
+                "Punch": -147.72601317615036,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g22_c07.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -505.44480638669154,
+                "JumpingJack": -Infinity,
+                "PullUps": -167.5760835420431,
+                "Punch": -136.86707062945447,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g02_c01.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -302.2496168030209,
+                "JumpingJack": -159.40557753311106,
+                "PullUps": -136.29544355242038,
+                "Punch": -112.78148208871202,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g05_c04.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -308.0132403373164,
+                "JumpingJack": -Infinity,
+                "PullUps": -226.66937494342326,
+                "Punch": -201.00344221424007,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g23_c06.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -225.39301636203294,
+                "JumpingJack": -Infinity,
+                "PullUps": -146.88231027649513,
+                "Punch": -114.48839934308225,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g20_c03.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -271.9301834867585,
+                "JumpingJack": -Infinity,
+                "PullUps": -243.8238758742719,
+                "Punch": -121.95405909878869,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g14_c03.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -78.65134241051003,
+                "JumpingJack": -Infinity,
+                "PullUps": -58.85739008049623,
+                "Punch": -52.244250395030136,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g07_c05.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -304.5671992708946,
+                "JumpingJack": -Infinity,
+                "PullUps": -205.3849166979985,
+                "Punch": -172.49799886451171,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g18_c01.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -575.60652772844,
+                "JumpingJack": -Infinity,
+                "PullUps": -552.4550384023701,
+                "Punch": -229.62186434488348,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g13_c01.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -942.772956680923,
+                "JumpingJack": -Infinity,
+                "PullUps": -226.77217757485087,
+                "Punch": -151.58129928542843,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g12_c02.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -297.3598258618609,
+                "JumpingJack": -Infinity,
+                "PullUps": -185.10189442395236,
+                "Punch": -133.04632420105497,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g24_c02.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -332.85767646349336,
+                "JumpingJack": -Infinity,
+                "PullUps": -267.43959525138456,
+                "Punch": -192.85610047523352,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g10_c06.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -164.173892100112,
+                "JumpingJack": -158.07743004157538,
+                "PullUps": -522.0651070666303,
+                "Punch": -79.72007011751158,
+                "PushUps": -4078.9979171343884
+            }
+        },
+        {
+            "file": "v_Punch_g12_c07.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -385.273357683248,
+                "JumpingJack": -Infinity,
+                "PullUps": -106.08840454102013,
+                "Punch": -87.4349946217128,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g14_c07.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -886.3681953118808,
+                "JumpingJack": -Infinity,
+                "PullUps": -255.82087096030938,
+                "Punch": -231.25976628235694,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g23_c01.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -172.13269176987703,
+                "JumpingJack": -Infinity,
+                "PullUps": -187.05728428121463,
+                "Punch": -115.88318259793697,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g18_c07.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -1349.1735473492936,
+                "JumpingJack": -Infinity,
+                "PullUps": -305.2550764923918,
+                "Punch": -241.19295284863307,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g05_c06.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -927.6866144750846,
+                "JumpingJack": -Infinity,
+                "PullUps": -293.6942019868771,
+                "Punch": -175.35041854201208,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g04_c01.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -283.33890853758885,
+                "JumpingJack": -Infinity,
+                "PullUps": -234.91744393834887,
+                "Punch": -184.65094130852856,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g12_c04.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -413.21451856194153,
+                "JumpingJack": -218.28234508909097,
+                "PullUps": -184.0049085087975,
+                "Punch": -180.75993843382605,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g24_c06.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -527.0790320030633,
+                "JumpingJack": -Infinity,
+                "PullUps": -299.2883445008017,
+                "Punch": -240.47328734626396,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g07_c02.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -748.6790140107912,
+                "JumpingJack": -Infinity,
+                "PullUps": -336.2810570962559,
+                "Punch": -175.29576284365476,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g18_c03.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -181.17734932481386,
+                "JumpingJack": -Infinity,
+                "PullUps": -186.14469881083198,
+                "Punch": -144.77028083404204,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g12_c01.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -909.2843851240943,
+                "JumpingJack": -Infinity,
+                "PullUps": -341.6565077412963,
+                "Punch": -136.55200083861408,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g25_c06.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -438.4367425320731,
+                "JumpingJack": -Infinity,
+                "PullUps": -375.977755718874,
+                "Punch": -158.72095465933606,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g05_c03.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -441.1519837066193,
+                "JumpingJack": -Infinity,
+                "PullUps": -297.095994020332,
+                "Punch": -220.03448126045973,
+                "PushUps": -Infinity
+            }
+        },
+        {
+            "file": "v_Punch_g10_c01.npy",
+            "true": "Punch",
+            "predicted": "Punch",
+            "scores": {
+                "BodyWeightSquats": -347.9414180834488,
+                "JumpingJack": -237.0761191623122,
+                "PullUps": -684.358447985999,
+                "Punch": -139.32179004975032,
+                "PushUps": -6311.354952890994
+            }
+        },
+        {
+            "file": "v_PushUps_g01_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -116.39228327737172,
+                "JumpingJack": -Infinity,
+                "PullUps": -79.80020301966871,
+                "Punch": -25.326986938554306,
+                "PushUps": -1.5321179336735187
+            }
+        },
+        {
+            "file": "v_PushUps_g23_c02.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -124.56514214550319,
+                "JumpingJack": -Infinity,
+                "PullUps": -85.37761216005171,
+                "Punch": -27.031734787981172,
+                "PushUps": -1.6196758993962173
+            }
+        },
+        {
+            "file": "v_PushUps_g02_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -138.86764516473323,
+                "JumpingJack": -Infinity,
+                "PullUps": -95.13807815572196,
+                "Punch": -30.015043524478187,
+                "PushUps": -1.7729023394109398
+            }
+        },
+        {
+            "file": "v_PushUps_g08_c04.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -173.60229535429198,
+                "JumpingJack": -Infinity,
+                "PullUps": -118.8420670023497,
+                "Punch": -37.26022188454237,
+                "PushUps": -2.145023693732409
+            }
+        },
+        {
+            "file": "v_PushUps_g06_c04.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -28.951444781651045,
+                "JumpingJack": -Infinity,
+                "PullUps": -17.46184718919253,
+                "Punch": -7.876468065325318,
+                "PushUps": -5.207504702294125
+            }
+        },
+        {
+            "file": "v_PushUps_g19_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -149.08371874989757,
+                "JumpingJack": -Infinity,
+                "PullUps": -102.1098395812007,
+                "Punch": -32.14597833626177,
+                "PushUps": -1.882349796564313
+            }
+        },
+        {
+            "file": "v_PushUps_g13_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -149.08371874989757,
+                "JumpingJack": -Infinity,
+                "PullUps": -102.1098395812007,
+                "Punch": -32.14597833626177,
+                "PushUps": -1.882349796564313
+            }
+        },
+        {
+            "file": "v_PushUps_g04_c02.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -200.16408667571926,
+                "JumpingJack": -Infinity,
+                "PullUps": -136.9686467085946,
+                "Punch": -42.80065239517968,
+                "PushUps": -2.4295870823311794
+            }
+        },
+        {
+            "file": "v_PushUps_g17_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -1.9359574554846217,
+                "JumpingJack": -91.1849383056591,
+                "PullUps": -408.925818993667,
+                "Punch": -19.866010607741426,
+                "PushUps": -1.6940680170920723
+            }
+        },
+        {
+            "file": "v_PushUps_g20_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -117.23114880222643,
+                "JumpingJack": -Infinity,
+                "PullUps": -75.03957831915893,
+                "Punch": -27.0822396720494,
+                "PushUps": -13.158910081477245
+            }
+        },
+        {
+            "file": "v_PushUps_g24_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -147.0405040328647,
+                "JumpingJack": -Infinity,
+                "PullUps": -100.71548729610495,
+                "Punch": -31.719791373905053,
+                "PushUps": -1.8604603051336384
+            }
+        },
+        {
+            "file": "v_PushUps_g10_c04.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -140.9108598817661,
+                "JumpingJack": -Infinity,
+                "PullUps": -96.5324304408177,
+                "Punch": -30.441230486834904,
+                "PushUps": -1.7947918308416144
+            }
+        },
+        {
+            "file": "v_PushUps_g11_c04.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -66.15070549727909,
+                "JumpingJack": -Infinity,
+                "PullUps": -40.18076841711445,
+                "Punch": -16.42755658183442,
+                "PushUps": -7.863968664263607
+            }
+        },
+        {
+            "file": "v_PushUps_g14_c03.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -206.29373082681786,
+                "JumpingJack": -Infinity,
+                "PullUps": -141.15170356388194,
+                "Punch": -44.07921328224983,
+                "PushUps": -2.4952555566232033
+            }
+        },
+        {
+            "file": "v_PushUps_g19_c04.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -157.25657761802904,
+                "JumpingJack": -Infinity,
+                "PullUps": -107.6872487215837,
+                "Punch": -33.850726185688636,
+                "PushUps": -1.9699077622870116
+            }
+        },
+        {
+            "file": "v_PushUps_g04_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -187.90479837352206,
+                "JumpingJack": -Infinity,
+                "PullUps": -128.60253299801994,
+                "Punch": -40.24353062103938,
+                "PushUps": -2.2982501337471315
+            }
+        },
+        {
+            "file": "v_PushUps_g01_c05.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -130.69478629660176,
+                "JumpingJack": -Infinity,
+                "PullUps": -89.56066901533896,
+                "Punch": -28.31029567505132,
+                "PushUps": -1.6853443736882412
+            }
+        },
+        {
+            "file": "v_PushUps_g25_c04.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -208.33694554385073,
+                "JumpingJack": -Infinity,
+                "PullUps": -142.54605584897772,
+                "Punch": -44.50540024460655,
+                "PushUps": -2.517145048053878
+            }
+        },
+        {
+            "file": "v_PushUps_g19_c02.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -155.21336290099617,
+                "JumpingJack": -Infinity,
+                "PullUps": -106.29289643648795,
+                "Punch": -33.42453922333192,
+                "PushUps": -1.948018270856337
+            }
+        },
+        {
+            "file": "v_PushUps_g06_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -180.99016241354698,
+                "JumpingJack": -Infinity,
+                "PullUps": -115.88418403222175,
+                "Punch": -41.171652840558096,
+                "PushUps": -14.903377710659843
+            }
+        },
+        {
+            "file": "v_PushUps_g09_c01.npy",
+            "true": "PushUps",
+            "predicted": "PushUps",
+            "scores": {
+                "BodyWeightSquats": -169.51586592022625,
+                "JumpingJack": -Infinity,
+                "PullUps": -116.0533624321582,
+                "Punch": -36.407847959828935,
+                "PushUps": -2.1012447108710597
+            }
+        }
+    ]
+}
